@@ -1,0 +1,20 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Technikz
+tagline:             'Blog de tecnologia do Monkey'
+description:         'Apenas uma tentativa de entreter os amigos com assuntos variados de tecnologia.'
+url:                 http://technikz.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Monkey
+  url:               https://disqus.com/by/fartingMonkey/
+
+# Custom vars
+version:             1.0.0 eternamente
