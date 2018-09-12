@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Technikz</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2018-09-12T08:25:55-03:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Monkey</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Apple Livestream</title>
+   <link href="http://localhost:4000/2018/09/12/apple/"/>
+   <updated>2018-09-12T00:00:00-03:00</updated>
+   <id>http://localhost:4000/2018/09/12/apple</id>
+   <content type="html">&lt;p&gt;Let it go!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;SEE YOU SOON at B-TEEZY LIVE for the iPhone XS/Apple Watch Series 4 &lt;a href=&quot;https://twitter.com/hashtag/AppleEvent?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#AppleEvent&lt;/a&gt;! 👀 8:30AM PT/11:30Am ET  &lt;a href=&quot;https://t.co/Q16fNZJ1dP&quot;&gt;https://t.co/Q16fNZJ1dP&lt;/a&gt; &lt;a href=&quot;https://t.co/74fVuzK8W6&quot;&gt;pic.twitter.com/74fVuzK8W6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brian Tong (@briantong) &lt;a href=&quot;https://twitter.com/briantong/status/1039779071385718785?ref_src=twsrc%5Etfw&quot;&gt;September 12, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Comparativo de sensores - Nikon d7000 vs Galaxy S7</title>
+   <link href="http://localhost:4000/2018/04/23/camera/"/>
+   <updated>2018-04-23T00:00:00-03:00</updated>
+   <id>http://localhost:4000/2018/04/23/camera</id>
+   <content type="html">&lt;p&gt;Há muito que se presencia no mercado uma sorrateira substituição das
+câmeras reflex pelas câmeras dos telefones celulares, cada vez
+melhores a cada ano. De fato, para a maioria dos usuários, pouca
+diferença faz se a foto é tirada usando uma câmera reflex, fruto de um
+investimento adicional, ou com um telefone. Afinal, as resoluções das
+fotos são praticamentes as mesmas, correto?! Não é bem assim, e um
+experimento bem simples pode mostrar coisas que normalmente ficam
+escondidas de olhos menos atentos. Pelo menos foi o que observei com
+um experimento feito usando um Galaxy S7 e uma Nikon d7000.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Todas as câmeras possuem um sensor de área. É uma peça retangular que
+fica dentro do aparelho (pasmem!) e recebe a luz da cena que se deseja
+fotografar e a transforma em uma matriz de pontos coloridos. Todo
+sensor possui uma resolução, normalmente associado com a quantidade de
+pontos dessa matriz.&lt;/p&gt;
+
+&lt;p&gt;Via de regra, quanto maior a resolução, maior a quantidade de detalhes
+que é possível capturar numa cena. Sim, de fato, isso ocorre. Porém,
+mais detalhes não significa necessariamente mais qualidade. E isso
+advém da própria física dos materiais que compõem o sensor.&lt;/p&gt;
+
+&lt;p&gt;Os sensores de área funcionam mais ou menos como formas de gelo
+expostas à chuva. Se os buracos da forma são grandes, ao final de uma
+chuva, cada buraco parecerá cheio aproximadamente com a mesma
+quantidade de água. Se os buracos são pequenos, alguns ficarão mais
+cheios que outros. Assim também funcionam com os sensores de
+luz. Quanto maior o tamanho das células do sensor, mais “pingos da
+chuva de fótons” serão capturados por cada uma delas.&lt;/p&gt;
+
+&lt;p&gt;A figura abaixo ilustra a proporção entre os tamanhos dos sensores de
+uma Nikon D7000 e de um Galaxy S7. Embora consigam tirar fotos em
+resoluções parecidas, o sensor da D7000 é bem maior.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/sensor/tamanhosensor.svg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/sensor/tamanhosensor.svg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;E o que ocorre quando o sensor é pequeno demais? Ruído. Sim, ruído. A
+pouca exposição à luz excita de forma desordenada os elementos do
+sensor (mais que nos sensores de grande área) provocando variações de
+cor.&lt;/p&gt;
+
+&lt;p&gt;Se os elementos do sensor possuem área reduzida, é natural que regiões
+suaves de uma cena apresentem ligeiras variações de cor que,
+normalmente, são imperceptíveis quando se captura a imagem em um
+telefone. Entretanto, ao se levar a imagem para um Desktop ou imprimir
+a foto capturada, a qualidade não é a mesma que se obtém com uma
+fotografia tirada com uma câmera profissional.&lt;/p&gt;
+
+&lt;h2 id=&quot;medindo-o-ruído-em-uma-câmera&quot;&gt;Medindo o ruído em uma câmera&lt;/h2&gt;
+
+&lt;p&gt;Resolvi estimar o ruído que uma câmera produz através de um
+experimento bem simples: removendo todas as fontes de luz de modo que
+somente a própria câmera influenciasse no processo de geração da cena.&lt;/p&gt;
+
+&lt;p&gt;Em linhas gerais, uma imagem pode ser representada como a composição
+de três quantidades \[ImagemCapturada = ImagemPura + Polarizacao + Ruido \]&lt;/p&gt;
+
+&lt;p&gt;A polarização é a suposta imagem que restaria se não houvesse ruído e
+a câmera estivesse na ausência total de luz; a imagem pura é aquela
+que seria gerada com um sensor perfeito (sem polarização e sem ruído);
+e o ruído seria o lixo gerado na ausência de luz e com baixa
+polarização.&lt;/p&gt;
+
+&lt;p&gt;Então, para criar uma situação onde o ruído fosse posto em evidência
+criei uma estratégia bem simples. Obstruí o sensor da câmera e tirei a
+fotografia. No Galaxy S7, tapei a lente usando duas camadas de fita
+isolante. Na Nikon D7000, basta colocar o protetor da lente que toda
+a luz é obstruída.&lt;/p&gt;
+
+&lt;p&gt;Ambas as câmeras foram ajustadas no modo automático e duas fotos foram
+tiradas. 
+O Galaxy S7 produziu a seguinte imagem:
+&lt;a href=&quot;http://localhost:4000/images/sensor/galaxys7.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/sensor/galaxys7.jpg&quot; alt=&quot;Foto tomada com o Galaxy S7&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A Nikon D7000 produziu a seguinte imagem:
+&lt;a href=&quot;http://localhost:4000/images/sensor/nikond7000.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/sensor/nikond7000.jpg&quot; alt=&quot;Foto tomadao com a Nikon D7000&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A princípio, as imagens parecem idênticas, pois o olho humano tem
+péssimo comportamento para analizar o contraste com tons
+parecidos. Mas carregando as fotos no computador e obtendo os
+histogramas das imagens geradas por cada dispositivo informações
+importantes aparecem (Em tempo, os histogramas mede a quantidade de
+ocorrências de cada tom de cor para todos os pixels da imagem).&lt;/p&gt;
+
+&lt;p&gt;Para o Galaxy S7, obtivemos os seguintes histogramas para as
+componentes vermelho, verde e azul da imagem capturada.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/sensor/histogalaxy.svg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/sensor/histogalaxy.svg&quot; alt=&quot;Sensor Galaxy S7&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Para a Nikon D7000, obtivemos os seguintes histogramas para as
+componentes vermelho, verde e azul da imagem capturada.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/sensor/histonikond7000.svg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/sensor/histonikond7000.svg&quot; alt=&quot;Sensor Nikon D7000&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A imagem do Galaxy S7 está recheada de ruído. O que deveria idealmente
+ser uma imagem completamente preta, produzindo um histograma com
+apenas um pico na cor “0”, temos pixels que se espalham dos tons na
+faixa aproximada dos 10 a 25 para a totalidade da imagem.&lt;/p&gt;
+
+&lt;p&gt;A imagem da Nikon D7000, por sua vez, praticamente não apresenta
+ruído. A quase totalidade dos pixels possuem tons de cor próximos ao
+“0”, valor considerado ideal. O gráfico desenhado, inclusive, é
+mostrado em escala vertical logarítimica para dar uma ideia melhor da
+relação entre a quantidade de ocorrência de pontos com cor “preta” e
+pontos com outras cores também bem próximas ao preta. Em outras
+palavras, as imagens tomadas com câmeras reflex com sensor de grande área
+são mais limpas que imagens tomadas com telefones.&lt;/p&gt;
+
+&lt;p&gt;E onde é que o olho normalmente é enganado? É que quando você vê a
+foto no dispositivo, ele aparece em tamanho reduzido. E, para
+completar, o tamanho dos pixels de um telefone é ínfimos, de sorte que
+é praticamente impossível conseguir distinguir entre dois pixels
+vizinhos.&lt;/p&gt;
+
+&lt;p&gt;Olha o que acontece quando a imagem do ruído quando ela sofre uma
+redução de tamanho para uma altura de 1080 linhas: o ruído diminui. O
+processo de interpolação usado na redução das imagens atenua o ruído,
+melhorando ainda mais a experiência de ver no telefone. Mas, a imagem
+que se vê não é a mesma que poderá ser impressa.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/sensor/compar-reduzida.svg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/sensor/compar-reduzida.svg&quot; alt=&quot;Sensor Nikon D7000&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Capturei um pequeno vídeo com o Galaxy S7 e calculei a média dos
+quadros para estimar a polarização da cena. Para o Galaxy, os pixels
+apresentam valores bem baixos próximos dos 3 ou 4 tons que, para fins
+de análise, podem ser considerados insignificantes. A Nikon D7000
+produziu uma imagem totalmente nula, mostrando a qualidade da marca.&lt;/p&gt;
+
+&lt;p&gt;Em suma, embora bem rudimentar, o experimento sugere que a tecnologia
+das câmeras usadas em telefones celulares não consegue superar a
+qualidade de uma câmera com maior sensor de área.&lt;/p&gt;
+
+&lt;p&gt;É bem provável que em mais alguns anos as câmera reflex entrem em
+desuso (profissional), mas até lá ainda teremos que evoluir bastante.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Review - Logitech MX Master 2s</title>
+   <link href="http://localhost:4000/2018/04/21/mxmaster2s/"/>
+   <updated>2018-04-21T00:00:00-03:00</updated>
+   <id>http://localhost:4000/2018/04/21/mxmaster2s</id>
+   <content type="html">&lt;p&gt;Após seis longos anos de uso diário do meu &lt;a href=&quot;https://www.amazon.com/Logitech-Wireless-Performance-Mouse-Large/dp/B002HWRJBM&quot;&gt;Logitech Performance
+MX&lt;/a&gt;,
+chegou a hora de trocá-lo por um novo mouse. Ocorre que com o uso
+rotineiro o revestimento de borracha que tem em algumas partes do
+mouse começa a ficar mole e pegajoso e usá-lo nessas condições é
+horrível. E, não, o Performance MX não quebrou; ele funciona
+perfeitamente. Inclusive, vou encomendar uma nova carcaça no
+Aliexpress para dar a ele mais uns cinco-seis anos de glória.&lt;/p&gt;
+
+&lt;p&gt;Enquanto isso, o destino me presentou algo novo. Um belíssimo MX
+Master 2S, a última palavra em mouses da sempre impecável Logitech.
+&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;O &lt;a href=&quot;https://www.logitech.com/en-us/product/mx-master-2s-flow&quot;&gt;Logitech Mx Master 2S&lt;/a&gt;, na falta de uma palavra melhor, é fabuloso.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/lateral.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/lateral.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sua moldagem é feita em plástico de alta qualidade, semelhante ao que
+encontro na carcaça de alguns notebooks, e pelo que pude notar, em
+algum tipo de borracha de alta dureza na superficie onde repousa a
+palma da mão.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/traseira.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/traseira.jpg&quot; alt=&quot;Vista lateral&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A ergonomia é perfeita para quem usa o mouse com a mão direita (meu
+caso, embora seja canhoto). Se você costuma usar o mouse com a mão
+esquerda, pare agora de ler este review. Definitivamente ele não é
+para você.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/lateral2.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/lateral2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;O novo logotipo da logitech fica estampado em um dos botões. Ficou bem
+discreto e bonito no mouse. A propósito, o sensor de fluxo ótico usa a
+tecnologia darkfield que permite usá-lo até sobre superfícies de
+vidro. Tanto a resolução (que pode variar de 200dpi a 4000dpi pode ser
+ajustada via software) quanto a velocidade do ponteiro podem ser
+ajustadas. Nunca me preocupei muito com isso, mas deve ter lá sua
+utilidade para tipos de usos não convencionais…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/logo.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/logo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;O mouse possui dois botões bem longos que aceitam os cliques sem
+dificuldade em toda a sua extensão. O botão central, moldado em metal
+e borracha, também serve para rolagem e nesse mouse, o chaveamento
+entre a rolagem livre e incremental é automático (sim,
+automático!). Dependendo do efeito que o dedo executa na rolagem, ele
+libera o giro da roda. Quando o dedo interrompe o giro, ele volta ao
+modo incremental. Isso é muito útil quando se edita documentos longos
+ou se navega na web.&lt;/p&gt;
+
+&lt;p&gt;O controle do chaveamento automático pode ser também desabilitado por
+um pequeno botão que fica próximo à esta roda e, pelo que percebi, é
+um circuito eletrônico que faz isso. Quando chaveado, muda o modo de
+funcionamento da roda para somente giro livre.&lt;/p&gt;
+
+&lt;p&gt;Olha, tenho preferência por chaves manuais para fazer esse efeito. O
+Performance MX funciona assim, mas o chaveamento automático do giro
+livre para giro incremental também aparenta ser feito por um
+circuito. Sei que se trata de um mouse Logitech (que praticamente só
+fabrica coisas indestrutíveis), mas espero que esse mecanismo não
+quebre tão cedo.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/superior.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/superior.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A lateral do mouse possui três botões: dois próximos a uma pequena
+roda lateral e um outro no local onde repousa a ponta do
+polegar. Embora esteja lá, minha experiência de usar esse botão é
+péssima. Ele não é ergonômico e o botão é duro quando comparado aos
+dois botões superiores. Bom, como nunca achei uma utilidade para o
+botão do polegar no velho mouse, provavelmente também deixarei esse no
+esquecimento.&lt;/p&gt;
+
+&lt;p&gt;Até mesmo os dois botões que ficam vizinhos à roda lateral também me
+são de pouco (ou nenhum) uso. Entretanto, você poderá configurá-los
+para fazer coisas específicas, tais como avançar/retroceder páginas
+num browser. Como uso Linux, já me acostumei com outras maneiras de
+fazer isso.&lt;/p&gt;
+
+&lt;p&gt;Ainda, próximo à base do mouse, há três leds que indicam a carga
+restante no dispositivo. Eles acendem sempre que o mouse se conecta ao
+PC ou quando é ligado.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/botoeslaterais.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/botoeslaterais.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nada de pilhas! O mouse possui uma bateria interna de 500mah que pode
+ser recarregada via USB. A duração média da bateria prometida pela
+Logitech é de 70 dias. Isso é muuuito tempo. E, de fato, raramente eu
+recarregava o Performance MX. Entretanto, nesse modelo, a bateria não
+é removível, o que não deve ser um problema, posto que nunca troquei a
+do outro mouse.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/frontal.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/frontal.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/frontal2.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/frontal2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Na parte inferior do mouse encontram-se uma chave liga/desliga e um
+botão para chavear a conexão com até três dispositivos
+diferentes. Sim, TRÊS! A conexão pode ser feita usando o adaptador USB
+que vem com o mouse (funciona plug-and-play) ou via bluetooth.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/images/logitech/fundo.jpg&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/logitech/fundo.jpg&quot; alt=&quot;Vista lateral&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Basta apertar o botão de chaveamento para iniciar o pareamento com um
+novo PC. Essa tecnologia de múltiplo pareamento é usada com maestria
+pelo software &lt;em&gt;flow&lt;/em&gt; fornecido pela Logitech. O &lt;em&gt;flow&lt;/em&gt; permite que o
+mouse seja usado &lt;strong&gt;AO MESMO TEMPO&lt;/strong&gt; em até três dispositivos e clicar
+num arquivo em um dispositivo e arrastar para o outro realiza a cópia
+desse arquivo entre duas máquinas. Inclusive, esse é o principal
+diferencial do mouse, pois o suporte ao flow existe para Windows, Mac
+e Tablets. Não testei, pois não há suporte para GNU/Linux (snif), mas
+quem usa acha bem legal.&lt;/p&gt;
+
+&lt;p&gt;O MX Master 2S está disponível no mercadolivre por cerca de R$430,00
+na época da confecção desse review ou até mais barato em outros sites
+nacionais. Sim, é caro, mas compensa pela durabilidade e conforto de
+uso ao longo dos anos.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Review - cabos Anker USB</title>
+   <link href="http://localhost:4000/2018/02/05/cabos-anker/"/>
+   <updated>2018-02-05T00:00:00-03:00</updated>
+   <id>http://localhost:4000/2018/02/05/cabos-anker</id>
+   <content type="html">&lt;p&gt;Este review é sobre um cabo USB. Tá, não é algo a que normalmente se
+dê muita atenção, mas quando o bolso começa a sentir agulhadas ao vê
+os cabos originais dos equipamentos virarem farofa um a um, um “led”
+vermelho acende mostrando que algo de errado não está certo.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;Quando o uso do cabo se dá de forma inapropriada, é comum que este
+fique inutilizado precocemente. E quem tem crianças sabe bem
+disso. Muitas crianças e até adultos (sim…​ adultos!) costumam usar o
+aparelho enquanto está carregando e com isso podem danificar o cabo.&lt;/p&gt;
+
+&lt;p&gt;Veja a figura que segue (se não quiser, não veja, mas também não vai
+entender o texto).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/anker/cabo-danificado.jpg&quot; alt=&quot;Exemplo de lesão comum em cabos USB&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Isso é mais comum do que se imagina. Perco uns 2 ou 3 desses cabos por
+ano só por mau uso (dos familiares). Espera-se que o usuário mantenha
+o cabo conectado sem dobras (a 90 graus), mas não é sempre isso o que
+se vê e sim atrocidades como essa:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/anker/uso-errado.jpg&quot; alt=&quot;Eis a origem do dano...&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E é geralmente na junção entre o cabo e o conector que ocorre o
+desgaste. Mas os responsáveis pelo mau uso normalmente não são os
+mesmos que compram os cabos e, por mais que se peça para usar
+corretamente, continuam fazendo ouvido de mercador para os apelos
+incessantes do fornecedor (que sou eu, claro!).&lt;/p&gt;
+
+&lt;p&gt;O problema é que cabos USB específicos para carregar (popularmente
+chamados de Powerlines) são caros. E esses cabos xing-ling que podem
+ser encontrados nos mercados populares são adequados para
+transferência de DADOS, não de energia. Experimentos que fiz com cabos
+de baixa qualidade mostram que noite inteira ainda não é suficiente
+para dar uma carga num smartfone comum.&lt;/p&gt;
+
+&lt;p&gt;Fui empurrando o problema com a barriga até que há alguns meses os
+abençoados usuários aqui de casa sepultaram os dois últimos cabos que
+eu tinha para fazer carga rápida nos meus telefones. Desisti de remar
+contra a maré e resolvi procurar algo à prova de mau uso…​ E ACHEI !!!
+(atenção ao detalhe do espaço antes das exclamações).&lt;/p&gt;
+
+&lt;h2 id=&quot;cabos-anker&quot;&gt;Cabos Anker&lt;/h2&gt;
+
+&lt;p&gt;A solução me foi apresentada pela Anker enquanto pesquisava minha
+solução no Aliexpress. O modelo de cabo que comprei foi o &lt;a href=&quot;https://www.anker.com/products/variant/PowerLine-6ft-Micro-USB/A8133011&quot;&gt;PowerLine
+6ft Micro USB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/anker/anker-propaganda.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pela descrição, prometia algumas coisas interessantes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Durabilidade&lt;/li&gt;
+  &lt;li&gt;Construção em fibra de Aramida&lt;/li&gt;
+  &lt;li&gt;Ciclo de vida de 5000+ entortadas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Parecia perfeito e eu arrisquei. Em verdade, não foi risco nenhum, pois
+o cabo de 6 pés (cerca de 1,80m) custou apenas US$6,00 - uma
+verdadeira pechincha.&lt;/p&gt;
+
+&lt;p&gt;Passados dois meses e meio da encomenda, o produto chegou em
+casa. Afirmo sem exageros: o cabo é excelente! Esse post não é
+patrocinado pela Anker, mas quando um produto é barato e de boa
+qualidade faço questão de divulgar.&lt;/p&gt;
+
+&lt;p&gt;Cada cabo vem muito bem acondicionado em uma caixa de papelão para
+proteger de arranhões ou danos durante o transporte.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/anker/anker-caixa.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/anker/anker-caixa-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A construção do cabo inspira bastante robustez como sugere o
+fabricante e realmente é bem difícil de dobrá-lo. Não tão difícil que
+impeça seu uso, mas vê-se que foi feito para pessoas realmente
+descuidadas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/anker/anker-enrolado.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nos dois conectores repousam gravados os logotipos da Anker, mostrando
+esmero  e materiais de alta qualidade na confecção do produto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/anker/anker-usb.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/anker/anker-microusb.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Só para dar uma ideia da espessura do cabo, coloquei lado-a-lado os
+cabos de carga rápida &lt;strong&gt;original&lt;/strong&gt; da Samsung e o Anker Powerline.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/anker/anker-samsung.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Não disponho de um paquímetro para medir a diferença, mas contando os
+pixels da foto que tirei, verifiquei que o diâmetro do cabo da Anker é
+cerca de 50% maior que o do cabo da Samsung.&lt;/p&gt;
+
+&lt;p&gt;Algo que se percebe ao manusear os cabos é que, no cabo original
+Samsung a cobertura plástica que reveste aparenta ser solta dos fios
+internos. No cabo da Anker é quase impossível conseguir separar a
+cobertura dos fios internos (eu disse quase porque não fui louco de
+tentar danificar o cabo usado nos testes). Essa é, sem dúvidas, a
+característica que mais chamou a atenção.&lt;/p&gt;
+
+&lt;p&gt;Outra coisa que percebi também é que o encaixe microUSB é bem mais
+firme no telefone que o encaixe do próprio cabo original. Isso é
+interessante também, pois percebo que a operação de ficar encaixando e
+desencaixando o cabo vai deixando os pinos de encaixe mais frouxos,
+contribuindo para a inutilização do produto. Dados que os cabos foram
+recebidos em outubro/2017, já se passaram uns 4 meses de uso… e
+os encaixes ainda continuam firmes como no primeiro dia.&lt;/p&gt;
+
+&lt;p&gt;Há versões mais caras e com outros tipos de conectores de cabos Anker
+mas, para dar uma ideia da qualidade desses cabos, segue o vídeo que
+um usuário postou no YouTube demonstrando a qualidade que podem
+oferecer. O cabo do vídeo não é o do review (procurei algo parecido,
+mas não achei), mas serve para impressionar…&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;http://www.youtube.com/embed/2crISE-TLxE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Pois é, fica a dica. Se precisa de algo durável e barato, procure os
+cabos da Anker. Vi que no Mercado Livre também vende desses modelos,
+mas o preço é um pouco mais caro. Esse do review está custando uns
+R$50,00 + frete. Para quem é impaciente e não está a fim de esperar o
+tempo de uma gestação de um elefante indiano para que seu cabo chegue
+da China, é uma boa.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Esteganografia em imagens</title>
+   <link href="http://localhost:4000/2017/08/21/esteganografia/"/>
+   <updated>2017-08-21T00:00:00-03:00</updated>
+   <id>http://localhost:4000/2017/08/21/esteganografia</id>
+   <content type="html">&lt;p&gt;Dá-se o nome de esteganografia à tarefa de ocultar uma informação em
+um arquivo de texto, imagem ou vídeo de modo que apenas o receptor que
+conhece como a ocultação foi realizada saiba como recuperar a
+informação inserida. Na esteganografia, usa-se o princípio da
+ocultação por obscuridade, onde se pressupõe que apenas o remetente e
+o destinatário sabem como decifrar o segredo enviado.
+&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;Essa prática é bem antiga. Os gregos costumavam enviar informações por
+mensageiros que poderiam ser capturados ou mortos no seu trajeto ao
+destino. Logo, nada mais natural de que utilizar alguma forma
+considerada segura de transmitir segredos. Naquela época usava-se
+esteganografia de texto apenas, posto que não se dispunha dos recursos
+modernos dos quais dispomos.&lt;/p&gt;
+
+&lt;p&gt;Definitivamente, não é o nosso caso. Temos à mão toda sorte de
+computadores para fazer esteganografia. Embora esteja um pouco em
+desuso pelos algoritmos modernos de criptografia, ainda é possível se
+divertir um pouco com isso. Neste post, trataremos de uma das formas
+de esteganografia usando imagens digitais. A ideia é esconder uma
+imagem no arquivo de outra imagem sem alterar significativamente a
+aparência da portadora.&lt;/p&gt;
+
+&lt;h2 id=&quot;codificação-em-bits&quot;&gt;Codificação em bits&lt;/h2&gt;
+
+&lt;p&gt;Todas as imagens são armazenadas na forma de matrizes. Os elementos
+dessas matrizes, por sua vez, armazenam as cores dos pixels da
+imagem. Para cada posição (x,y) na matriz, uma cor é associada a três
+quantidades (geralmente inteiras) que indicam as proporções das cores
+primárias Verde, Vermelho e Azul (Red, Green, Blue) da cor
+específica. Considere, por exemplo a imagem a seguir.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/raposao.png&quot; alt=&quot;Imagem exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;É fácil verificar com algum software de tratamento de imagens que a
+cor do pixel localizado na posição (linha, coluna) = (200,200)
+referenciada em relação ao canto superior esquerdo é marrom.
+Matematicamente falando, o pixel marrom correspondente à combinação de
+três números inteiros (Red ,Green, Blue) = (133, 96, 77) que são
+usados para as representar as componentes de cor.&lt;/p&gt;
+
+&lt;p&gt;Cada um dos inteiros de um pixel é normalmente armazenado em um
+variável de 8 bits (char, em linguagem C). Com apenas 8 bits é
+possível representar cada componente com uma faixa de variação de 0
+a 255. Apesar ter apenas um byte de tamanho, essa quantidade permite
+enganar com maestria o olho humano e ainda possibilita a geração de um
+total de aproximadamente 16 milhões de tonalidades de cores para uma
+imagem colorida.&lt;/p&gt;
+
+&lt;p&gt;Ocorre que o total dos 8 bits usados para cada componente pode ser
+manipulado para esconder informações importantes. Os bits menos
+significativos de um pixel guardam pouca informação para olhos
+medianos. Observe, por exemplo, a seguinte sequência de imagens. Ela
+foi composta manipulando os bits de cada pixel de forma que os N bits
+menos significativos de cada componente de cor fossem deixados com
+valores iguais a zero para seis valores distintos de N, variando de 1
+(canto superior esquerdo) a 6 (canto inferior direito).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;img src=&quot;http://localhost:4000/images/raposao1bits.png&quot; alt=&quot;Imagem exemplo 1&quot; /&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;img src=&quot;http://localhost:4000/images/raposao2bits.png&quot; alt=&quot;Imagem exemplo 2&quot; /&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;img src=&quot;http://localhost:4000/images/raposao3bits.png&quot; alt=&quot;Imagem exemplo 3&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;(1 bit)&lt;/td&gt;
+      &lt;td&gt;(2 bits)&lt;/td&gt;
+      &lt;td&gt;(3 bits)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;http://localhost:4000/images/raposao4bits.png&quot; alt=&quot;Imagem exemplo 4&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;http://localhost:4000/images/raposao5bits.png&quot; alt=&quot;Imagem exemplo 5&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;http://localhost:4000/images/raposao6bits.png&quot; alt=&quot;Imagem exemplo 6&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;(4 bit)&lt;/td&gt;
+      &lt;td&gt;(5 bits)&lt;/td&gt;
+      &lt;td&gt;(6 bits)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Perceba como ocorre a degradação das cores da imagem na medida em que
+os bits são descartados. Para a imagem do exemplo, a degradação começa
+a ser percebida com a perda de 3 ou 4 bits menos significativos. É aí
+que entra a possibilidade de ocultação da informação…&lt;/p&gt;
+
+&lt;p&gt;Descartando-se uma quantidade de bits suficiente para não perder a
+qualidade visual da imagem, pode-se usar posições dos bits perdidos
+para esconder informação. Dá-se a essa prática o nome de
+esteganografia de imagens usando bits menos significativos, ou &lt;strong&gt;Least
+Significant Bit&lt;/strong&gt; &lt;em&gt;steganography&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;usando-o-lsb-steganography&quot;&gt;Usando o LSB-Steganography&lt;/h2&gt;
+
+&lt;p&gt;Na Internet, é possível encontrar alguns exemplos de código que
+realizam esteganografia de imagens com relativa facilidade. Neste
+post, usarei como exemplo o projeto
+&lt;a href=&quot;https://github.com/RobinDavid/LSB-Steganography/&quot;&gt;LSB-Steganography&lt;/a&gt;
+que achei no GitHub.&lt;/p&gt;
+
+&lt;p&gt;O programa foi desenvolvido em OpenCV e é bem simples de ser instalado
+e utilizado, posto que as ferramentas necessárias já tenham sido
+instaladas no computador. Para clonar o repositório da aplicação,
+basta abrir o terminal e digitar o seguinte comando:&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;git&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; clone https://github.com/RobinDavid/LSB-Steganography.git
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Feito isso, o software está disponível via linha de comando para
+realizar atividades de ocultação e recuperação de arquivos em uma
+imagem fornecida.&lt;/p&gt;
+
+&lt;p&gt;No nosso exemplo, procuramos esconder a imagem do arquivo
+&lt;code class=&quot;highlighter-rouge&quot;&gt;android.png&lt;/code&gt; logo abaixo no arquivo da imagem da raposa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/android.png&quot; alt=&quot;Android Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para esconder o arquivo &lt;code class=&quot;highlighter-rouge&quot;&gt;android.png&lt;/code&gt; no arquivo raposao.png, execute o comando&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;md5sum&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; android.png 
+&lt;/span&gt;9d911f64d2907bd34a33bab2422d6c09  android.png
+&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;python&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; LSBSteg.py -image raposao.png -binary android.png -steg-out raposao-steg.png
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A imagem &lt;code class=&quot;highlighter-rouge&quot;&gt;raposao-steg.png&lt;/code&gt; criada no processo é mostrada a
+seguir. Perceba que não há diferenças visuais notáveis no arquivo que
+contém a imagem escondida.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/raposao-steg.png&quot; alt=&quot;Raposao Steg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para revelar o arquivo &lt;code class=&quot;highlighter-rouge&quot;&gt;android.png&lt;/code&gt; escondido no arquivo &lt;code class=&quot;highlighter-rouge&quot;&gt;raposao-steg.png&lt;/code&gt;,
+execute o seguinte comando:&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;python&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; LSBSteg.py -steg-image raposao-steg.png -out reveal.out
+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;md5sum&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; reveal.out 
+&lt;/span&gt;9d911f64d2907bd34a33bab2422d6c09  reveal.out
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;No Linux, é possível verificar que tipo de arquivo é &lt;code class=&quot;highlighter-rouge&quot;&gt;reveal.out&lt;/code&gt; usando
+o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;file&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;kv&quot;&gt; reveal.out
+&lt;/span&gt;reveal.out: PNG image data, 64 x 72, 8-bit/color RGBA, non-interlaced
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Perceba que é uma imagem PNG com as mesmas dimensões
+do arquivo original. E, como também percebi, possui o mesmo conteúdo.&lt;/p&gt;
+
+&lt;p&gt;Um cuidado deve ser tomado para que o processo funcione bem: a imagem
+portadora deve ser salva em formato de compressão sem perdas. No
+experimento, usei o formato PNG. Formatos de compressão com perdas
+degradam os valores dos pixels, de sorte que a informação escondida é
+completamente perdida no processo.&lt;/p&gt;
+
+&lt;p&gt;No exemplo do post foi realizada a ocultação de um arquivo de imagem,
+mas quaisquer arquivos regulares também podem ser ocultados. O autor
+sugere apenas como boa prática usar uma portadora cujo tamanho seja
+pelo menos oito vezes maior que a imagem que se pretende
+esconder. Isso é de se esperar, posto que o uso excessivo de bits
+degrada a qualidade da imagem onde se deseja ocultar a informação.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Technikz vem à luz</title>
+   <link href="http://localhost:4000/2017/08/20/hello/"/>
+   <updated>2017-08-20T00:00:00-03:00</updated>
+   <id>http://localhost:4000/2017/08/20/hello</id>
+   <content type="html">&lt;p&gt;Este e o primeiro post desse novo blog do Monkey. Deixei o &lt;a href=&quot;http://cronistadaselva.blogspot.com&quot;&gt;Cronista da Selva&lt;/a&gt; exclusivamente para a zoeyra e tentarei apresentar algumas matérias de tecnologia.
+&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;Não prometo que virão com frequência, pois o tempo me é escasso, mas sempre que aparecer alguma ideia legal (contribuições são bem vindas) a gente publica por aqui…&lt;/p&gt;
+
+&lt;h3 id=&quot;feito-com-poole-e-jekyll&quot;&gt;Feito com Poole e Jekyll&lt;/h3&gt;
+
+&lt;p&gt;Resolvi mudar um pouco a forma de publicação. O blogspot limitava algumas coisas que eu queria fazer e dava uma trabalhareira danada para ficar ajeitando imagens, formatando texto… definitivamente não suporto ficar apertando botões em interfaces. Com Jekyll, os posts são escritos em texto simples e o próprio Github (yeahhhh) se vira para formatar as páginas.&lt;/p&gt;
+
+&lt;p&gt;Abraços, Monkey.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
